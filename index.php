@@ -1,6 +1,8 @@
 <?php include("./controllers/database.php") ?>
 
 <?php include("./includes/header.php") ?>
+<body>
+<?php include("./includes/nav.php") ?>
 	<div class="container p-4">
 		<div class="row">
 			<div class="col-md-5 mx-auto">
@@ -14,7 +16,7 @@
 				<?php session_unset(); } ?>
 				<div class="card bg-dark text-light mb-4 rounded-0">
 					<div class="card-header">
-						<h2>MySql Php</h2>
+						<h2>Tasks PHP</h2>
 					</div>
 					<div class="card-body">
 						<form action="./controllers/addTask.php" method="POST">
@@ -36,5 +38,5 @@
 			</div>
 		</div>	
 	</div>
-
+</body>
 <?php include("./includes/footer.php") ?>

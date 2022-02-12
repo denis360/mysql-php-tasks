@@ -7,11 +7,4 @@
 	<link rel="stylesheet" href="./css/main.css">
 	<title></title>
 </head>
-<body>
-	<nav class="navbar navbar-dark bg-dark">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="./index.php">App MySql PHP</a>
-		</div>
-	</nav>
-
 
